@@ -9,6 +9,8 @@ moving your head lets you look around the window's edges, the way you would
 through a real one. The game's own camera and controls are untouched — you
 play with a controller, as on a monitor.
 
+[![King Kong VR — video](https://img.youtube.com/vi/UoFNG8YoUBo/hqdefault.jpg)](https://www.youtube.com/watch?v=UoFNG8YoUBo)
+
 > Not affiliated with Ubisoft or Universal. You need your own copy of the game;
 > this mod contains none of its files.
 
