@@ -27,7 +27,10 @@ play with a controller, as on a monitor.
 ## Install
 
 1. Copy `d3d9.dll` and `PlayKingKong.bat` from this package into the game's
-   folder — the one that contains `kingkong9d.exe`.
+   folder — the one that contains `kingkong9d.exe`. If the folder already has
+   a `d3d9.dll` (some repacks include a frame-rate limiter), rename it, e.g. to
+   `d3d9.dll.bak`: the mod paces the game itself and must be the only
+   `d3d9.dll`.
 2. Recommended game settings (in the game's `SettingsApplication.exe`):
    - resolution **1920x1440** (a 4:3 resolution suits the window best),
    - anti-aliasing **4x** (8x can drop below 120 fps),
