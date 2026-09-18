@@ -9,10 +9,6 @@ moving your head lets you look around the window's edges, the way you would
 through a real one. The game's own camera and controls are untouched — you
 play with a controller, as on a monitor.
 
-Cutscenes are the exception: they are filmed from very close with long lenses,
-which no window can show, so they appear on a smaller, flatter screen inside
-the window.
-
 > Not affiliated with Ubisoft or Universal. You need your own copy of the game;
 > this mod contains none of its files.
 
@@ -99,10 +95,12 @@ dpad_up=12 dpad_right=13 dpad_down=14 dpad_left=15`.
 - **Nothing in the headset:** start the VR runtime's streaming before the
   game, and make sure it provides a 32-bit OpenXR runtime (Virtual Desktop
   does).
-- **The headset runs at 72 Hz:** set 120 Hz in Virtual Desktop's settings.
 - **Missed frames / stutter:** lower `[render] render_scale` (e.g. 0.8) or the
   game's anti-aliasing, or set `[display] fps_limit` to half the headset's
   rate (60 at 120 Hz).
+- **Stuck at an invisible wall, or unable to climb a slope:** set
+  `[display] fps_limit=60` in `kkvr.ini` and restart the game. Some of the
+  game's movement may not work at 120 fps; the headset keeps its own rate.
 - **The settings application does not start** ("not properly installed"): a
   copied game is missing its install location in the registry. Copy
   `install_registry.bat` from this package into the game folder, right-click
