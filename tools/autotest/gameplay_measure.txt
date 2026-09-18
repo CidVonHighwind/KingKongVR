@@ -1,0 +1,17 @@
+# Into level 1, then 15 s of walking and turning (for glitch_catch / replay measurements).
+@1 press start
+@2 press start
+@3 press start
+@4 press start
+@6 press a
+@10 press a
+@14 press a
+@24 press a
+@30 press a
+@35 press a
+@36 wait gameplay 60
+@37 stick left 0 1 4000
+@41 stick right 1 0 1500
+@43 stick left 0 1 4000
+@47 stick right -1 0 1500
+@52 quit

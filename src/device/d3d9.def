@@ -1,0 +1,5 @@
+; Export the undecorated name. Direct3DCreate9 is __stdcall, which MSVC would
+; otherwise decorate as _Direct3DCreate9@4 in a 32-bit build.
+LIBRARY d3d9
+EXPORTS
+    Direct3DCreate9

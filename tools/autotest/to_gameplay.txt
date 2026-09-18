@@ -1,0 +1,19 @@
+# Fastest reliable way into level 1 (measured 2026-09-17):
+# Esc (start) skips the intro videos; A confirms language (6 s), title (10),
+# profile loading (14), profile (24), PLAY (30) and the chapter (35).
+# Blind repeated tapping does not work: it opens and closes a trailer.
+# Then wait until the level's post effects run; later times count from there.
+@1 press start
+@2 press start
+@3 press start
+@4 press start
+@6 press a
+@10 press a
+@14 press a
+@24 press a
+@30 press a
+@35 press a
+@36 wait gameplay 60
+@36.5 shot reached
+@37 log gameplay reached
+@38 quit

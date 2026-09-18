@@ -1,0 +1,13 @@
+{
+  "performance": {
+    "seconds": 66,
+    "gameplay_reached": true,
+    "windows": 6,
+    "median_ms": 8.33,
+    "p99_ms": 9.84,
+    "worst_ms": 13.59,
+    "missed_headset_frames": 0,
+    "avg_game_ms": 2.2516666666666665,
+    "avg_submit_ms": 4.716666666666668
+  }
+}

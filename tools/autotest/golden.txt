@@ -1,0 +1,29 @@
+# Golden frame: into gameplay, pause (the world freezes), two screenshots 3 s apart.
+# Compare two builds or settings with tools/autotest/compare.py.
+# Full run: intros -> language -> profile -> PLAY -> chapter -> gameplay, then controls.
+# Timings measured on this machine at 120 fps (2026-09).
+@2.0 press a
+@3.5 press a
+@5.0 press a
+@6.5 press a
+@8.0 press a
+@9.5 press a
+@11.0 press a
+@12.5 press a
+@14.0 press a
+@15.5 press a
+@17.0 press a
+@18.5 press a
+@20.0 press a
+@21.5 press a
+@23.0 press a
+@24.5 press a
+@27 press a
+@35 press a
+@43 press a
+@51 press a
+@59 press a
+@78 press start
+@83 shot golden_a
+@86 shot golden_b
+@88 quit

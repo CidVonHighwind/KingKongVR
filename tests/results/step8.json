@@ -1,0 +1,200 @@
+{
+  "correctness": {
+    "seconds": 66,
+    "gameplay_reached": true,
+    "captures": {
+      "language_menu": {
+        "dir": "2026-09-17_19-58-01",
+        "corners": [
+          [
+            41,
+            284
+          ],
+          [
+            2623,
+            0
+          ],
+          [
+            2551,
+            1467
+          ],
+          [
+            0,
+            1102
+          ]
+        ],
+        "mean": 0.3948787894499175,
+        "clear_pct": 0.2039497358612218,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "language_menu_bigger_window": {
+        "dir": "2026-09-17_19-58-03",
+        "corners": [
+          [
+            -207,
+            28
+          ],
+          [
+            2268,
+            -3
+          ],
+          [
+            1994,
+            1440
+          ],
+          [
+            -46,
+            1347
+          ]
+        ],
+        "mean": 0.3232773300070487,
+        "clear_pct": 0.07721365383867392,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "main_menu": {
+        "dir": "2026-09-17_19-58-19",
+        "corners": [
+          [
+            -755,
+            0
+          ],
+          [
+            1774,
+            120
+          ],
+          [
+            1920,
+            1200
+          ],
+          [
+            -757,
+            1584
+          ]
+        ],
+        "mean": 0.458612913939902,
+        "clear_pct": 0.055114946118937524,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "loading_or_chapter": {
+        "dir": "2026-09-17_19-58-26",
+        "corners": [
+          [
+            -559,
+            -5
+          ],
+          [
+            2122,
+            -189
+          ],
+          [
+            1924,
+            1331
+          ],
+          [
+            -61,
+            1440
+          ]
+        ],
+        "mean": 0.5621743441604348,
+        "clear_pct": 0.24808249732322032,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "gameplay_1": {
+        "dir": "2026-09-17_19-58-45",
+        "corners": [
+          [
+            -651,
+            -352
+          ],
+          [
+            1982,
+            139
+          ],
+          [
+            1729,
+            1382
+          ],
+          [
+            -488,
+            1440
+          ]
+        ],
+        "mean": 1.9092986270201504,
+        "clear_pct": 0.1773317220031039,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "gameplay_2": {
+        "dir": "2026-09-17_19-58-51",
+        "corners": [
+          [
+            -133,
+            0
+          ],
+          [
+            1955,
+            242
+          ],
+          [
+            2206,
+            1536
+          ],
+          [
+            -745,
+            1852
+          ]
+        ],
+        "mean": 1.768182786615833,
+        "clear_pct": 0.049101794483897176,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      }
+    },
+    "glitches": {
+      "frames_checked": 3600,
+      "temporal_hits": 0,
+      "replay_hits": 0
+    },
+    "verify": {
+      "draws_checked": 117708,
+      "wrong_vertex_draws": 0,
+      "skips_checked": 0,
+      "wrong_skips": 0,
+      "no_data": 0
+    },
+    "crashed": false
+  },
+  "performance": {
+    "seconds": 66,
+    "gameplay_reached": true,
+    "windows": 6,
+    "median_ms": 8.34,
+    "p99_ms": 10.67,
+    "worst_ms": 12.66,
+    "missed_headset_frames": 0,
+    "avg_game_ms": 2.1933333333333334,
+    "avg_submit_ms": 1.3999999999999997
+  }
+}

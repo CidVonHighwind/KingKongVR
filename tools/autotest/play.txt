@@ -1,0 +1,56 @@
+# Full run: intros -> language -> profile -> PLAY -> chapter -> gameplay, then controls.
+# Timings measured on this machine at 120 fps (2026-09).
+@2.0 press a
+@3.5 press a
+@5.0 press a
+@6.5 press a
+@8.0 press a
+@9.5 press a
+@11.0 press a
+@12.5 press a
+@14.0 press a
+@15.5 press a
+@17.0 press a
+@18.5 press a
+@20.0 press a
+@21.5 press a
+@23.0 press a
+@24.5 press a
+@27 press a
+@26.5 shot menu_0
+@35 press a
+@34.5 shot menu_1
+@43 press a
+@42.5 shot menu_2
+@51 press a
+@50.5 shot menu_3
+@59 press a
+@58.5 shot menu_4
+@75 log gameplay: idle
+@76 shot game_idle
+@78 stick left 0 1 2000
+@79 shot game_walk
+@81 shot game_walked
+@82 stick right 1 0 700
+@83 shot game_turned
+@84 stick right 0 1 400
+@85 shot game_lookup
+@86 press rt 300
+@86.2 shot game_throw
+@88 press start
+@89 shot pause
+@90 press dpad_down
+@90.8 shot pause_down
+@91.5 press b 300
+@92.8 shot pause_after_b
+@93.5 log resumed with B
+@94.8 shot resumed
+@95.5 press x
+@95.8 shot game_x
+@96.5 press y
+@96.8 shot game_y
+@97.5 press a
+@97.8 shot game_jump
+@98.5 press lb
+@98.8 shot game_lb
+@100 quit

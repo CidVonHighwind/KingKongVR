@@ -1,0 +1,16 @@
+# build output
+build/
+
+# the game install (copyrighted game files, logs, captures)
+/game/
+
+# local tool caches
+__pycache__/
+*.pyc
+
+# release packages (tools/package.ps1)
+dist/
+
+# private notes, not published
+/CLAUDE.md
+/docs/

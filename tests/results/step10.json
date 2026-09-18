@@ -1,0 +1,133 @@
+{
+  "correctness": {
+    "seconds": 72,
+    "gameplay_reached": false,
+    "captures": {
+      "language_menu": {
+        "dir": "2026-09-18_00-08-52",
+        "corners": [
+          [
+            0,
+            94
+          ],
+          [
+            3284,
+            -278
+          ],
+          [
+            2208,
+            1208
+          ],
+          [
+            16,
+            863
+          ]
+        ],
+        "mean": 0.3331009759515161,
+        "clear_pct": 0.07038913294832726,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "language_menu_bigger_window": {
+        "dir": "2026-09-18_00-08-53",
+        "corners": [
+          [
+            -1689,
+            -251
+          ],
+          [
+            1460,
+            128
+          ],
+          [
+            1520,
+            1024
+          ],
+          [
+            -1156,
+            1606
+          ]
+        ],
+        "mean": 0.33382213813640016,
+        "clear_pct": 0.14206271149914315,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "main_menu": {
+        "dir": "2026-09-18_00-09-10",
+        "corners": [
+          [
+            -206,
+            0
+          ],
+          [
+            1406,
+            169
+          ],
+          [
+            1612,
+            1195
+          ],
+          [
+            -615,
+            1606
+          ]
+        ],
+        "mean": 0.5310932055318904,
+        "clear_pct": 0.1399765136957925,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "loading_or_chapter": {
+        "dir": "2026-09-18_00-09-17",
+        "corners": [
+          [
+            -147,
+            85
+          ],
+          [
+            2024,
+            -33
+          ],
+          [
+            1930,
+            1286
+          ],
+          [
+            -8,
+            1288
+          ]
+        ],
+        "mean": 0.5039911064644511,
+        "clear_pct": 0.14383655015548302,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      }
+    },
+    "glitches": {
+      "frames_checked": 6000,
+      "temporal_hits": 0,
+      "replay_hits": 0
+    },
+    "verify": {
+      "draws_checked": 381371,
+      "wrong_vertex_draws": 0,
+      "skips_checked": 0,
+      "wrong_skips": 0,
+      "no_data": 0
+    },
+    "crashed": false
+  }
+}

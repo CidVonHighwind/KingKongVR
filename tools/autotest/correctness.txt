@@ -1,0 +1,26 @@
+# Correctness run for tools/autotest/suite.py (one game start, ~60 s): frame
+# captures in the language menu before and after F3 (window size), main
+# menu, loading / chapter select and gameplay, then walking and turning.
+# Run with glitch_catch=1 and verify=1 (the suite sets them).
+@1 press start
+@2 press start
+@3 press start
+@4 press start
+@8 capture
+@8.5 hotkey F3
+@9.6 capture
+@10 press a
+@14 press a
+@24 press a
+@26 capture
+@30 press a
+@33 capture
+@35 press a
+@36 wait gameplay 60
+@38 capture
+@39 stick left 0 1 3000
+@42 stick right 1 0 1500
+@44 capture
+@45 stick left 0 1 4000
+@49 stick right -1 0 1500
+@51 quit

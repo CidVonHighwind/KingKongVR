@@ -1,0 +1,20 @@
+# Eye images in the menus and level 1, for headset-path checks (run with
+# vr.simulate_headset=1). Same navigation as to_gameplay.txt.
+@1 press start
+@2 press start
+@3 press start
+@4 press start
+@6 press a
+@9 shot language
+@10 press a
+@14 press a
+@20 shot profile
+@24 press a
+@28 shot main_menu
+@30 press a
+@35 press a
+@36 wait gameplay 60
+@38 shot gameplay1
+@39 stick left 0 1 2000
+@41.5 shot gameplay2
+@43 quit

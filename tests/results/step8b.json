@@ -1,0 +1,109 @@
+{
+  "correctness": {
+    "seconds": 95,
+    "gameplay_reached": false,
+    "captures": {
+      "language_menu": {
+        "dir": "2026-09-17_20-14-59",
+        "corners": [
+          [
+            0,
+            550
+          ],
+          [
+            4406,
+            -342
+          ],
+          [
+            4732,
+            2905
+          ],
+          [
+            78,
+            2180
+          ]
+        ],
+        "mean": 0.17629503619152845,
+        "clear_pct": 0.004836809909831414,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "language_menu_bigger_window": {
+        "dir": "2026-09-17_20-15-04",
+        "corners": [
+          [
+            -3357,
+            -1647
+          ],
+          [
+            3064,
+            190
+          ],
+          [
+            2614,
+            2136
+          ],
+          [
+            -1573,
+            2688
+          ]
+        ],
+        "mean": 0.23209333937039167,
+        "clear_pct": 0.031230003967785528,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      },
+      "main_menu": {
+        "dir": "2026-09-17_20-15-17",
+        "error": "eye image is blank (capture during a black screen?)"
+      },
+      "loading_or_chapter": {
+        "dir": "2026-09-17_20-15-24",
+        "corners": [
+          [
+            -406,
+            -334
+          ],
+          [
+            3976,
+            -318
+          ],
+          [
+            3133,
+            2688
+          ],
+          [
+            -68,
+            2356
+          ]
+        ],
+        "mean": 0.3559584671240965,
+        "clear_pct": 0.024788428018409924,
+        "best_shift": [
+          0,
+          0
+        ],
+        "best_scale": 1.0
+      }
+    },
+    "glitches": {
+      "frames_checked": 7200,
+      "temporal_hits": 0,
+      "replay_hits": 0
+    },
+    "verify": {
+      "draws_checked": 75762,
+      "wrong_vertex_draws": 0,
+      "skips_checked": 0,
+      "wrong_skips": 0,
+      "no_data": 0
+    },
+    "crashed": false
+  }
+}

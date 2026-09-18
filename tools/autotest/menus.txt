@@ -1,0 +1,43 @@
+# Menu navigation: options, sub pages, B to go back, extras.
+# Full run: intros -> language -> profile -> PLAY -> chapter -> gameplay, then controls.
+# Timings measured on this machine at 120 fps (2026-09).
+@2.0 press a
+@3.5 press a
+@5.0 press a
+@6.5 press a
+@8.0 press a
+@9.5 press a
+@11.0 press a
+@12.5 press a
+@14.0 press a
+@15.5 press a
+@17.0 press a
+@18.5 press a
+@20.0 press a
+@21.5 press a
+@23.0 press a
+@24.5 press a
+@27 press a
+@26.5 shot menu_0
+@35 press a
+@34.5 shot menu_1
+@43 press a
+# Main menu: Options, a sub page, back out with B twice, then Extras.
+@48 shot m_main
+@49 press dpad_down
+@50 shot m_options_sel
+@51 press a
+@53 shot m_options
+@54 press dpad_down
+@55 press a
+@57 shot m_options_sub
+@58 press b
+@59.5 shot m_back1
+@60 press b
+@61.5 shot m_back2
+@62 press dpad_down
+@63 press a
+@65 shot m_extras
+@66 press b
+@67.5 shot m_back3
+@68 quit
